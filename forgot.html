@@ -1,0 +1,24 @@
+
+
+
+<html>
+<head>
+<link rel = "stylesheet" type = "text/css" href = "css/Login.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/Validate_login.js"> </script>
+</head>
+
+<body>
+<h1 class="text-primary">Forgot Password</h1>
+<form name="formLog" action="forgot1.php" method="post" onsubmit="return validateForm()">
+Username:
+<input type="text" name="userName" class="form-control" ><br/>
+New Password: 
+<input type="Password" name="pass" class="form-control" ><br/>
+Confirm Password:
+<input type="Password" name="txt_cpwd" class="form-control" ><br/>
+<input type="Submit" value="Submit">
+</form>  
+</body>
+</html>

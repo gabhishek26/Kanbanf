@@ -1,0 +1,78 @@
+r<!DOCTYPE html>
+	<?php
+	session_start();
+	$_SESSION["result"]=NULL;
+	?>
+<html>
+	<head> 
+
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+				
+
+			<!-- Bootstrap -->
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+			<!-- Optional theme -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+			<!-- Latest compiled and minified JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+			<link rel = "stylesheet" type = "text/css" href ="css/Login.css" />
+			
+			<script src="js/main.js" type="text/javascript"></script>
+			<script src="js/login.js" type="text/javascript"></script>
+			
+	</head>
+
+	<body class="container" >
+	
+		<div id="result-display" class ="center">
+			<form id="formLog"> 
+				<div class = "divCenter" >
+				
+				<h1> Welcome to Kanban Game</h1>
+
+
+
+
+					 
+      <label for="userNameId" class="col-lg-5 "> </label> 
+      <div class="col-sm-3 text-center" style="margin-left: -160px;margin-top:7px">
+  Username:
+     </div>
+   <div class="col-lg-2" style="margin-left: -120px">
+					<input type="text" value="student" class="form-control" placeholder="Username" name="userName" id="userNameId" required>
+</div>
+
+						<br/>
+						<br/>
+					<label class = "warning" style="margin-right: -100px">*Enter Letters and number only</label>
+						<br/>
+					<label for="passId" class="col-lg-5 "> </label> 
+					<div class="col-sm-3 text-center" style="margin-left: -160px;margin-top:7px">
+  Password:
+     </div>
+					<div class="col-lg-2" style="margin-left: -120px">
+					<input type="password" value="Password" class="form-control" minlength="3" placeholder="Enter Password" name="pass" id="passId" required>
+					</div>
+						<br/> <br/>
+					<input type="checkbox" checked="true" id="humanCheck" required> I am not a robot 
+						<br><br>
+					<button type="button" class="btn btn-primary" value="Forgot my password"
+					onClick="Javascript:window.location.href = 'forgot.html';" > Forgot Password</button>&emsp; 
+					<button type="submit" class="btn btn-success" >Login</button>
+						</div>
+
+
+			</form>
+		</div>
+	</body>
+	
+</html>

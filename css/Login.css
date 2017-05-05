@@ -1,0 +1,116 @@
+/* myStyle.css */
+.center{
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+ 
+}
+.warning{
+	color: red;
+	font-size: 8pt;
+}
+.tabs{
+	list-style-type:none
+}
+.button{
+	margin:	5px 10px;
+	text-align: center;
+	    font-size: 16px;
+
+}
+
+#background
+{
+  background-image: url ("C:\Program Files (x86)\Ampps\www\Kanban\pic\image.jpg")  no-repeat center;;
+
+ width: 100px;
+ height: 100px;
+}
+.backButton {
+     line-height: 12px;
+     width: 18px;
+     font-size: 8pt;
+     font-family: tahoma;
+     margin-top: 1px;
+     margin-right: 2px;
+     position:absolute;
+     top:0;
+     right:0;
+ }
+.divCenter{
+
+	text-align: center;
+	border: 3px solid black;
+  margin-top: 50px;
+	margin-left: -420px;
+    width: 250%;
+	padding-top: 150px;
+  padding-bottom: 130px;
+	background-color:#ffffff;  
+
+}
+
+.wrapper{
+  position: relative;
+  width:640px;
+  margin:0 auto;
+}
+
+body {
+
+
+
+ background-color: #f1f1f1;
+  
+
+ width: 100px;
+ height: 100px;
+
+}
+
+#myTask{
+	position:absolute;
+	top:50px;left:100px;
+	width: 20px;
+	height: 20px; 
+	background: red;}
+	
+#myWorker {
+position: absolute;
+left: 200px;
+top: 200px;
+text-align:center;
+width: 100px; 
+height: 100px; 
+border: 5px solid #999; 
+}
+
+table{
+   position:absolute;
+   left: 50px;
+
+}
+
+td,th {
+   text-align:center;
+   padding: 10px;
+   border: solid #999;
+}
+
+
+h1 {
+          
+font-family: Brush Script Std, Brush Script MT, cursive, Times, serif;
+font-size: 60px;
+font-style:oblique;
+padding-top: -100px;
+padding-bottom: 60px
+}
+p {
+ 
+}
+
+
+
+

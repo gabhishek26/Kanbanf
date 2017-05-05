@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+	<?php
+	session_start();
+	?>
+<html> 
+<head> 
+
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+				
+			<!-- Bootstrap -->
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+			<!-- Optional theme -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+			<!-- Latest compiled and minified JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+			<link rel = "stylesheet" type = "text/css" href ="../css/Login.css" />
+			
+
+
+</head>
+
+<body class="container" >
+		<div id="result-display" class ="center">
+			 
+				<div class = "div">
+				
+					<form method="post" action="add_user.php">
+
+	  <div class="col-xs-12" style="height:0px;"></div>
+		  <div class="col-xs-12">  
+					
+<table class="table-bordered">
+					
+
+<tr>
+						<td><input type="text" class="form-control" name="username" placeholder="Username"> 
+						</td></tr>
+						<tr><td><input type="text" class="form-control" name="password" placeholder="password"> 
+							</td></tr>
+							
+						<tr>	<td><div class="btn-group" data-toggle="buttons">
+  <label class="btn btn-primary active">
+    <input type="radio" name="accesslevel" id="option1" autocomplete="off" checked value="1"> admin 
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="accesslevel" id="option2" autocomplete="off" value="2"> teacher
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="accesslevel" id="option3" autocomplete="off" value="3"> student
+  </label>
+</div>
+								     </td>
+						
+<tr><td> <button type="submit">Submit</button> <button type="reset">Reset</button>   <a href="user_reports.php"> <button type="button">Back</button>  </a>  </td></tr>
+</tr>
+					
+					</table>
+					
+					</form>
+				</div>
+		
+			</div>
+		</div>
+	</body>
+
+
+
+
+
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+<link rel = "stylesheet" type = "text/css" href = "css/Login.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/Validate_login.js"> </script>
+
+</head>
+<body id="background">
+<form class = "center" name="formLog" onsubmit="return validateForm()" method="post"> 
+<div>
+
+<label> Username : </label> <input type="text" placeholder="Enter Username" name="userName" required>
+<br/>
+<label class = "warning">*Enter Letters and number only</label>
+ <br/>
+<label> Password : </label> <input type="password" placeholder="Enter Password" name="pass" required>
+<br/> <br/>
+<input type="checkbox" id="humanCheck"> I am not a robot 
+<br><br>
+ <input type="button" value="Forgot my password">&emsp; 
+ <input type="Submit" value="Login">
+</div>
+
+
+</form>
+</body>
+</html>
